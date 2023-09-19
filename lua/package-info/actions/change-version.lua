@@ -120,7 +120,7 @@ M.run = function()
         return
     end
 
-    local id = loading.new("|  Fetching " .. dependency_name .. " versions")
+    local id = loading.new(" Fetching " .. dependency_name .. " versions")
 
     job({
         json = true,
